@@ -182,7 +182,7 @@ var JQD = (function($, window, document, undefined) {
         });
 
         // Taskbar buttons.
-        d.on('click', '#dock a', function() {
+        d.on('mousedown', '#dock a', function() {
           // Get the link's target.
           var x = $($(this).attr('href'));
 
